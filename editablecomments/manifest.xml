@@ -2,7 +2,7 @@
 <plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
 	<name>Editable Comments</name>
 	<author>Rhizomatik, Jon Dron, Matt Beckett</author>
-	<version>1.0</version>
+	<version>1.1</version>
 	<description>Makes comments editable</description>
 	<website>https://landing.athabascau.ca</website>
 	<copyright>(C) Rhizomatik, Jon Dron, Matt Beckett</copyright>
@@ -11,7 +11,7 @@
 	<!-- All plugins must require either elgg_version or elgg_release. -->
 	<requires>
 		<type>elgg_release</type>
-		<version>1.8</version>
+		<version>1.8.4</version>
 	</requires>
   
 	<category>Comments</category>
