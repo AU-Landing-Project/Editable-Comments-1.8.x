@@ -1,0 +1,12 @@
+== Version History ==
+
+x.x:
+
+1.2 (05/30/2012):
+- Fixed deprecated function
+- Fixed changelog format
+
+
+1.1 (05/11/2012):
+
+- Fixed issue where comment edit form was obscured in the river
