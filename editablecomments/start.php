@@ -12,4 +12,4 @@ function editable_comments_init() {
   elgg_register_action('editablecomments/edit', elgg_get_plugins_path() . "editablecomments/actions/edit.php");
 }
 
-register_elgg_event_handler('init','system','editable_comments_init');
+elgg_register_event_handler('init','system','editable_comments_init');
