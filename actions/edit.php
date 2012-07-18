@@ -7,7 +7,9 @@ $annotation = get_annotation($annotation_id);
 $commentOwner = $annotation->owner_guid;
 $access_id = $annotation->access_id;
 		
-if($annotation && $annotation->canEdit()){
+if($annotation &&
+   $annotation->canEdit() &&
+   elgg_trigger_plugin_hook('editablecomments:canedit', 'comment', array('annotation' => $annotation), true)){
   //can edit? Either the comment owner or admin can
   $result = update_annotation($annotation_id, "generic_comment", $post_comment, "",$commentOwner, $access_id);
   
